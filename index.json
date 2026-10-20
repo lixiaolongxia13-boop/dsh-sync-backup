@@ -17,10 +17,8 @@
           "version": "1.2.1",
           "publishTimestamp": 1760000000,
           "source": {
-            "type": "git",
-            "url": "https://github.com/lixiaolongxia13-boop/dsh-sync-backup",
-            "commit": "431b73b588e3aaff05f659f9aaa73ca61cc02abe",
-            "path": "team-delegate-1.2.1.tgz"
+            "type": "tarball",
+            "url": "https://raw.githubusercontent.com/lixiaolongxia13-boop/dsh-sync-backup/main/team-delegate-1.2.1.tgz"
           }
         }
       ]
@@ -37,10 +35,8 @@
           "version": "1.4.3",
           "publishTimestamp": 1760000000,
           "source": {
-            "type": "git",
-            "url": "https://github.com/lixiaolongxia13-boop/dsh-sync-backup",
-            "commit": "431b73b588e3aaff05f659f9aaa73ca61cc02abe",
-            "path": "dsh-role-guard-1.4.3.tgz"
+            "type": "tarball",
+            "url": "https://raw.githubusercontent.com/lixiaolongxia13-boop/dsh-sync-backup/main/dsh-role-guard-1.4.3.tgz"
           }
         }
       ]
