@@ -1,0 +1,20 @@
+{
+  "format": 1,
+  "name": "zhentou-plugin-source",
+  "plugins": [
+    {
+      "id": "team-delegate",
+      "name": "team-delegate",
+      "description": "Role delegation plugin",
+      "version": "1.2.1",
+      "downloadUrl": "https://raw.githubusercontent.com/lixiaolongxia13-boop/dsh-sync-backup/main/team-delegate-1.2.1.tgz"
+    },
+    {
+      "id": "dsh-role-guard",
+      "name": "dsh-role-guard",
+      "description": "Role guard plugin",
+      "version": "1.4.3",
+      "downloadUrl": "https://raw.githubusercontent.com/lixiaolongxia13-boop/dsh-sync-backup/main/dsh-role-guard-1.4.3.tgz"
+    }
+  ]
+}
