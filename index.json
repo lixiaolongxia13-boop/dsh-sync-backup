@@ -1,20 +1,47 @@
 {
   "format": 1,
-  "name": "zhentou-plugin-source",
+  "title": {
+    "zh": "战投小分队内部插件源",
+    "en": "Zhentou Plugin Source"
+  },
   "plugins": [
     {
-      "id": "team-delegate",
       "name": "team-delegate",
-      "description": "Role delegation plugin",
-      "version": "1.2.1",
-      "downloadUrl": "https://raw.githubusercontent.com/lixiaolongxia13-boop/dsh-sync-backup/main/team-delegate-1.2.1.tgz"
+      "title": {
+        "zh": "角色委派插件",
+        "en": "Role Delegation Plugin"
+      },
+      "description": "提供多角色并行分析",
+      "versions": [
+        {
+          "version": "1.2.1",
+          "source": {
+            "type": "git",
+            "url": "https://github.com/lixiaolongxia13-boop/dsh-sync-backup",
+            "commit": "main",
+            "path": "team-delegate-1.2.1.tgz"
+          }
+        }
+      ]
     },
     {
-      "id": "dsh-role-guard",
       "name": "dsh-role-guard",
-      "description": "Role guard plugin",
-      "version": "1.4.3",
-      "downloadUrl": "https://raw.githubusercontent.com/lixiaolongxia13-boop/dsh-sync-backup/main/dsh-role-guard-1.4.3.tgz"
+      "title": {
+        "zh": "角色守卫插件",
+        "en": "Role Guard Plugin"
+      },
+      "description": "安全控制角色权限",
+      "versions": [
+        {
+          "version": "1.4.3",
+          "source": {
+            "type": "git",
+            "url": "https://github.com/lixiaolongxia13-boop/dsh-sync-backup",
+            "commit": "main",
+            "path": "dsh-role-guard-1.4.3.tgz"
+          }
+        }
+      ]
     }
   ]
 }
